@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+section.footer {
+  padding:0;
+  margin:0;
+  background:hsla(233, 20%, 15%, 1);
+}
+footer {
+  margin:0;
+  background:hsla( 233, 20%, 5%, 1);
+  height:4em;
+  padding:0;
+  flex-flow: row wrap;
+  display:flex;
+  justify-content:center;
+  width:100%;
+}
+footer h3 {
+    color:hsla(234, 5%, 75%, 1);  
+    line-height:2em;
+    font-family: 'Exo 2', sans-serif;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="layout">
+
+<head>
+	<meta charset="UTF-8">
+	<title>この画面は出てほしくない</title>
+	<link th:href="@{/css/header.css}" rel="stylesheet" type="text/css">
+	<link th:href="@{/css/footer.css}" rel="stylesheet" type="text/css">
+</head>
+<!-- th:replaceを使用して、 <head>用のフラグメントを読込みます -->
+
+<body>
+	<div layout:decorator="layout">
+	<div layout:fragment="contents">ページコンテンツ１</div>
+</div>
+</body>
+
+</html>

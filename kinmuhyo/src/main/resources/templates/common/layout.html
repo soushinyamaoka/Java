@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:th="http://www.thymeleaf.org"
+ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+	<meta charset="UTF-8">
+	<title>勤務表作成画面</title>
+	<link th:href="@{/css/header.css}" rel="stylesheet" type="text/css">
+	<link th:href="@{/css/footer.css}" rel="stylesheet" type="text/css">
+	<link th:href="@{/css/app.css}" rel="stylesheet" type="text/css">
+</head>
+<!-- th:replaceを使用して、 <head>用のフラグメントを読込みます -->
+
+<body>
+	<!-- th:replaceを使用して、 ヘッダー用のフラグメントを読込みます -->
+	<div th:replace="common/header :: header_fragment"></div>
+<h1>Common Layout</h1>
+    <section layout:fragment="contents"></section>
+<!-- 	<div th:replace="makeKinmu/makeKinmu :: makeKinmu_fragment"></div> -->
+	<!-- th:replaceを使用して、 フッター用のフラグメントを読込みます -->
+	<div th:replace="common/footer :: footer_fragment"></div>
+</body>
+
+</html>

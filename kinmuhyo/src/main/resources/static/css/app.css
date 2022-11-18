@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.main-section{
+	 margin: 10px auto;
+}
+
+.kinmuhyo-area{
+	width: 80%;
+}
+.dayOfWeek-td .day-td td{
+	width: 50px;
+}
+.clockIn-td .clockOut-td td{
+	width: 100px;
+}
+.remarks-td .commutet-td td{
+	width: 250px;
+}
+.clockIn-input, .clockOut-input, remartk-input, commute-input {
+	width: 90%;
+	font-size: 16px;
+}
+
+.outputBtn {
+	width: 100px;
+	text-align: center;
+}
+.targetMonth {
+	width: 20px;
+	font-size: 16px;
+}
+.area_center {
+	margin-top: 20px;
+	text-align: center;
+}
+
+/***　テーブルカラー　***/
+
+.kinmuhyo-table {
+	table-layout: fixed;
+	border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    margin: 3px auto;    /* 上下3px 左右auto */
+    max-width: 100%;
+}
+
+
+/* ヘッダー */
+.kinmuhyo-table thead th {
+	background:#5BAD92;
+	font-weight: bold;
+	color:#fff;
+	border: 1px solid #eee;
+}
+
+/* ボディ項目・フッター項目 */
+.kinmuhyo-table tbody th,
+.kodai-table tfoot th {
+	background:#FCFAF2;
+		text-align:center;
+	border: 1px solid #eee;
+}
+
+/* ボディデータ・フッターデータ */
+.kinmuhyo-table tbody td,
+.kinmuhyo-table tfoot td {
+	text-align:center;
+	border: 1px solid #eee;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+header {
+    top:0;
+    height:5em;
+    width:100%;
+    line-height:5em;
+    background:hsla( 233, 20%, 5%, 1);
+}
+span.logo {
+	color:hsla(234, 5%, 75%, 1);
+    float:left;
+    margin-left:1em;
+    font-size:1.5em;
+}
+span.ls a {
+    float:right;
+    margin-right:2em;
+    font-size:1em;
+    color:hsla(234, 5%, 75%, 1);
+    text-decoration:none;
+}
+  
+span.ls a:hover {
+    text-decoration:underline;
+    transition: all .5s ease;
+}
